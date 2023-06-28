@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    background-color: rgb(24, 23, 22);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    background: linear-gradient(rgb(24, 23, 22), transparent);
+    display: flex;
+    flex-direction: row;
+    padding: 0px 40px;
+    position: fixed; top: 0px;
+    z-index: 2;
+}
+
+a{
+    width: 20%;
+}
+.logo{
+    width: 78%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: small;
+    font-weight: 300;
+}
+
+ul p {
+    margin-right: 20px;
+}
+
+.busqueda {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.busqueda img{
+    padding: 9px;
+}
+
+#search{
+    width: 4%;
+    padding: 0px 10px;
+}
+
+#bell{
+    width: 4%;
+    padding: 0px 10px;  
+}
+
+#perfil {
+    width: 7%;
+    border-radius: 25%;
+}
+
+#arrow{
+    width: 3%;
+    padding-left: 2px;
+}
+
+header{
+    width: 100%;
+}
+
+header img{
+    width: 100%;
+    position: absolute; top: 0px;
+    z-index: 1; 
+}
+
+.titulo-header{
+    filter: drop-shadow(5px 5px 5px #222);
+    margin-left: 4%;
+    width: 24%;
+    position: relative; top: 40vh;
+    z-index: 3;
+}
+
+.botones{
+    position: relative; top: 50vh;
+    z-index: 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.botonesPlayMore{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 4%;
+    width: 300px;
+    padding-right: 1rem ;
+}
+
+#buttonPlay{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: transparent;
+    padding: 12px 35px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 600;
+    width: 40%;
+}
+#buttonPlay img{
+    width: 100%;
+    height: 80%;
+    padding-right: 16%;
+}
+#buttonMoreInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: rgba(56, 54, 54, 0.6);
+    color: white;
+    border: transparent;
+    padding: 11px 32px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 700;
+    width: 58%;
+    height: 94%;
+}
+
+#buttonMoreInfo img{
+    width: 20%;
+    padding-right: 10%;
+}
+
+.botonesRefresh{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 10%;
+}
+
+#botonRefresh{
+    padding: 9%;
+    border: 0.1rem white solid;
+    border-radius: 50%;
+}
+
+#botonEdad{
+    background: rgba(77, 75, 75, 0.4);
+    padding: 5% 38% 5% 10%;
+    border-left: 0.2rem white solid;
+    margin-left: 13%;
+    width: 90%;
+    font-size: small;
+    font-weight: 200;
+
+}
+.newReleases{
+    background: linear-gradient(transparent, rgb(24,23,22) 60%, rgb(24,23,22) 80%);
+    position: relative; top: 50vh;
+    z-index: 5;
+    padding: 4%;
+}
+
+.myList{
+    position: relative; top: 42vh;
+    z-index: 6;
+    padding: 4%;
+}
+
+.continueWatching{
+    position: relative; top: 35vh;
+    z-index: 7;
+    padding: 4%;
+}
+.iconos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+}
+
+#iconos-nr {
+    width: 14.5rem;
+    margin-right: 0.3rem;
+    border-radius: 3%;
+    transition: 300ms;
+    position: relative;
+}
+#iconos-nr:hover{
+    width: 16rem;
+    transform: scale(1.30);
+}
+footer{
+    width: 60%;
+    padding-top: 20%;
+    padding-left: 15%;
+    padding-bottom: 2%;
+    color: grey;
+    font-size: small;
+}
+
+.socialMedia img{
+    width: 2.2%;
+    padding-right: 2%;
+}
+
+.links{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links p{
+    margin-top: 7%;
+}
+
+#serviceCode{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 11%;
+    border: 2px solid grey;
+    padding: 0.5%;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    header img{
+        width: 100%;
+    }
+}
